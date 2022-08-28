@@ -1,0 +1,81 @@
+.modal {
+    width: 100%;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+  max-width: 60%;
+  margin: 1.75rem auto;
+}
+}
+
+.modal>.header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.modal>.content {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.modal>.actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 25px;
+    top: 8px;
+    font-size: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #5c5c5c;
+    color: black;
+}
+
+.ArticleMain {
+    margin-bottom: 10px;
+}
+
+.ImageArticle {
+    padding: 40px 25px 25px 25px;
+}
+
+.spinnerParent {  
+    display: flex;
+    margin:  20px;
+    justify-content:center;
+ }
+
+ .logoArticle {
+    height: 15px;
+ }
+
+ .ModalFooter {
+     display: inline-block;
+ }
+
+ .authorName{
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: middle;
+ }
+
+ .dateArticle {
+     position:absolute;
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: middle;
+    right: 5px;
+ }

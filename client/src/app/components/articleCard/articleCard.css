@@ -1,0 +1,79 @@
+.card {
+    box-shadow: -2px 5px 10px #8a8a8a;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+    border-radius: 5px;
+
+}
+
+.card:hover {
+    box-shadow: -10px 15px 15px #8a8a8a;
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.image-container {
+    justify-content: space-between;
+}
+
+
+.col {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+    align-content: center;
+}
+
+
+element {
+
+    top: 0px;
+
+}
+
+.spinner {
+    width: 100%;
+}
+
+.ImageCard {
+    width: 18rem;
+    max-height: 15rem;
+}
+
+.Card {
+    width: 18rem;
+    position: relative;
+}
+
+.logo {
+    height: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.CardTitle{
+    margin: 10px 10px 35px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.TimeFromNow{
+    font-size: 0.8rem;
+    height: 15px;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}

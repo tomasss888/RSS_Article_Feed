@@ -1,6 +1,8 @@
 ## About the project
 A project to bring all popular Lithuanian article sites to one place using RSS feeds.
 
+![Website Showcase image](https://github.com/tomasss888/RSS_Article_Feed/blob/master/images/showcase.png?raw=true)
+
 ## Tech/framework used
 
 * **Server-Side**: Node.js

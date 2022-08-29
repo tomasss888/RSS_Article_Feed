@@ -52,15 +52,12 @@ const ArticlePopUp = props => {
                 backdrop="static"
                 centered
             >
-
                 <Button variant="secondary" className='close' onClick={() => handleClose()}>
                     Uždaryti
                 </Button>
 
                 {(articleData !== undefined) ? (
-
                     <>
-
                         <Card.Img className="img-fluid ImageArticle" src={(articleData.image === undefined) ? null : articleData.image.url} />
 
                         <Modal.Header className="header">
@@ -72,19 +69,14 @@ const ArticlePopUp = props => {
                             className="content"
                         > {' '}
                             <h3>{articleData.description}</h3>
-
                             {(articleData.article === undefined) ? null : articleData.article.map((data, index) =>
-
                                 <>
                                     <div className='ArticleMain'>
                                         {data}
                                         <br />
                                     </div>
-
                                 </>
-
                             )}
-
                         <a href={articleData.link} target="_blank">Nuoroda į straipsnį</a>
 
                         </Modal.Body>
@@ -102,11 +94,7 @@ const ArticlePopUp = props => {
                     </>
                 )}
             </Modal>
-
-
         </>
-
-
     );
 }
 

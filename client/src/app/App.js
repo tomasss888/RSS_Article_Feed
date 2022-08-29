@@ -29,9 +29,6 @@ function App() {
 
   return (
     <div className="App">
-
-
-
       <div class="topnav">
         <a class="active" href="#">Žinios vienoje vietoje</a>
         <a href="#">Pagrindis</a>
@@ -61,19 +58,10 @@ function App() {
           open={articleIsOpen}
           sortBy={sortBy}
         />
-
-
       </div>
-
-
-
-
     </div >
-
-
-
-
   );
+  
 }
 
 export default App;

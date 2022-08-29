@@ -18,15 +18,8 @@ const ArticleCard = props => {
                     >
                     </CardMain>
                 </div>
-
-
             </div>
-
-
-
         </>
-
-
     );
 }
 
@@ -42,7 +35,6 @@ const CardMain = props => {
                     onClick={() => (props.setSelectedArticleData(data), props.setOpen(true))}
                 >
                     <Card.Img className='ImageCard' key={index} variant="top" src={data.image.url} />
-
 
                     <Card.Body>
                         <Card.Title className='CardTitle'> {data.title} </Card.Title>
